@@ -5,18 +5,21 @@ This is a (very) simple Java application.
 It just says Hi, receives and prints the command line arguments, and says Bye!
 
 
-Instructions using Maven:
-------------------------
+## Maven instructions
 
-## Instructions for using Maven
+To print the project dependencies:
 
-To compile and copy the properties file to the output directory:
+```
+mvn dependency:tree
+```
+
+To compile the source code:
 
 ```
 mvn compile
 ```
 
-To run using _exec_ plugin:
+To run the program using _exec_ plugin:
 
 ```
 mvn exec:java
