@@ -10,6 +10,7 @@
 
     <name>${project.artifactId}</name>
 
+	<!-- Properties are variables used to customize the behavior of Maven and its plug-ins. -->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
