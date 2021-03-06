@@ -4,7 +4,6 @@ This is a (very) simple Java application.
 
 It just says Hi, receives and prints the command line arguments, and says Bye!
 
-
 ## Maven instructions
 
 To print the project dependencies:
@@ -25,7 +24,6 @@ To run the program using _exec_ plugin:
 mvn exec:java
 ```
 
-
 ## To configure the Maven project in Eclipse
 
 'File', 'Import...', 'Maven'-'Existing Maven Projects'
@@ -33,7 +31,6 @@ mvn exec:java
 'Select root directory' and 'Browse' to the project base folder.
 
 Check that the desired POM is selected and 'Finish'.
-
 
 ----
 
