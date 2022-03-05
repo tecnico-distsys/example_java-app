@@ -24,6 +24,10 @@ To run the program using _exec_ plugin:
 mvn exec:java
 ```
 
+## To configure the Maven project in IntelliJ
+
+'File', 'Open', select the project's base folder.
+
 ## To configure the Maven project in Eclipse
 
 'File', 'Import...', 'Maven'-'Existing Maven Projects'
